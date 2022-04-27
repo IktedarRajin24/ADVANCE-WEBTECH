@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="createPart">
+        <legend > Signup </legend>  
+          <div >
+            <form method="POST" action="http://127.0.0.1:8000/api/User/signUp">
+              
+                <div class="mb-6">
+                  <label for="formGroupExampleInput" class="form-label"> Name :</label>
+                  <input type="text" name="name" class="form-control" id="formGroupExampleInput" >
+                  
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label" style="margin-top: 20px">email :</label>
+                    <input type="text" name="email" class="form-control" id="formGroupExampleInput" >
+                    
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label" style="margin-top: 20px">address :</label>
+                    <input type="text" name="address" class="form-control" id="formGroupExampleInput" >
+                    
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label" style="margin-top: 20px">phone :</label>
+                    <input type="text" name="phone" class="form-control" id="formGroupExampleInput" >
+                    
+                </div>
+                  
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label" style="margin-top: 20px">password :</label>
+                    <input type="text" name="password" class="form-control" id="formGroupExampleInput" >
+                    
+                </div>
+                
+                <input type="submit" name="submit" value="signup" class="btn btn-primary login_button">
+            </form>  
+          </div>
+          
+      </div>
+</body>
+</html>
